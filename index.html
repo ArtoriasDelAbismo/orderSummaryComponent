@@ -5,29 +5,74 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
-  Order Summary
+  <main class="main-container">
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+    <div class="wrapper">
 
-  Annual Plan
-  $59.99/year
+      <div class="image-container">
 
-  Change
+        <img src="./images/illustration-hero.svg" alt="" class="image">
+      
+      </div>
+  
+      <div class="text-container">
+        
+        <h1 id="title">Order Summary</h1>
+  
+        <p id="description">
+  
+          You can now listen to millions of songs, audiobooks, and podcasts on any 
+          device anywhere you like!
+        
+        </p>
+      
+      </div>
+       
+      <div class="plan-container">
+        
+        <img src="./images/icon-music.svg" alt="musical note">
+          
+        <span>Annual Plan</span> 
+        <span>$59.99/year</span> 
+        <a href="/">Change</a> 
+        
+      </div>
+  
+      <div class="primary-button">
+  
+        <button id="boton1">Proceed to Payment</button> 
+  
+      </div>
+      
+      <div class="secondary-button">
+        
+        <button id="boton2">Proceed to Payment</button>
+  
+      </div>
+      
+      <div class="cancel-button">
+  
+        <button id="boton3">Cancel Order</button> 
+  
+      </div>
 
-  Proceed to Payment
-  Cancel Order
+    </div>
+
+   
+    
+      
+  </main>
+      
+    
+
+  
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
